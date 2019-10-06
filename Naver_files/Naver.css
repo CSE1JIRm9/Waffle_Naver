@@ -1,0 +1,503 @@
+body{
+  background-color: #ebebeb;
+  margin:0;
+  display: flex;
+  flex-direction: column;
+}
+
+.score{
+  position:absolute;
+  right:0;
+  float:right;
+}
+
+.logo{position: relative;
+left:39%}
+
+.menu{
+  left:0;
+  position: absolute;
+  float:left;
+}
+
+.top {
+  top:0;
+  display:block;
+  max-width: 935px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.topli {
+  overflow:hidden;
+  color:#444;
+  line-height: 37px;
+  display:flex;
+  align-items: center;
+    justify-content: center;
+  flex:auto;
+  font-family: AppleSDGothicNeo-Regular,HelveticaNeue,sans-serif;
+      font-size: 19px;}
+
+.indexli{
+  display:flex;
+  align-items: center;
+    justify-content: center;
+  flex:auto;
+  font-family: AppleSDGothicNeo-Regular,HelveticaNeue,sans-serif;
+      font-size: 17px;
+}
+
+  .toplist, .tindex {
+    margin:0;
+    display:flex;
+    flex-direction: row;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex:1;}
+
+
+  .scroller{
+    position: relative !important;
+    width: 768px;
+    margin: 0 auto;
+  }
+
+ .tindex{
+   position: relative !important;
+     width: 768px;
+   margin: 0 auto;
+
+}
+
+  .topindex{
+    padding: 0 16px;
+    background:#2565d0
+  }
+
+  .indexli{
+    color:#a2c4ff;
+    margin:10px 0px;
+  }
+
+
+
+/*----------------------------------------------------------------------*/
+.ct{
+  background-color:#ebebeb;
+}
+
+  .hlt, .eg-flick-panel {
+      margin:0 auto;
+    }
+
+.common_playicon_nonfloat, .txt{
+  color:black;
+}
+
+.home{
+  max-width: 935px;
+     margin: 0 auto;
+     margin-bottom: -4px;
+
+      position: relative !important;}
+
+.hlt{position: relative;  display: flex; flex:auto; flex-direction: row;width:900px;}
+
+
+.headlinetext{margin:0;
+  margin-top: 5px;
+    margin-right: 20px;
+font-size:10px;
+font-style: italic;}
+
+
+
+.headline_ct.single .headline_title {
+  position: absolute;
+    bottom: auto;
+    left: auto;
+    top: 0;
+    right: 25%;
+    width: 20%;
+    height: 100%;
+    padding: 17px;
+    padding-right: 20px;
+    border-right: 1px solid #e8e8e8;
+}
+
+.headline_ct.single .headline_title .title {
+    padding-top: 1px;
+    font-size: 20px;
+    line-height: 1.25em;
+    -webkit-line-clamp: 3;
+    padding-top: 4px;
+}
+
+.headline_ct.single .headline_title .source {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 14px 17px;
+    color: #8c959d;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.headline_bx {
+    position: static;
+    float: right;
+    width: 25%;
+}
+
+.corp{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.headline_ct {
+    position: static;
+    float: left;
+    width: 50%;
+}
+
+.headline {
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+}
+.list{
+  list-style: none;
+ font-size:14px;
+}
+
+.headline_flick{
+  margin-top: 10px;
+}
+
+.headline_ct a {
+    display: block;
+        color: #222;
+}
+
+.headline_image,.headline_bx, .headline_image, .headline_news:before
+ {
+
+    height: 173px;
+    padding-top: 0;
+}
+
+.headline_bx .list li:first-child {
+    border-top: 0;
+}
+
+.headline_bx .list {
+
+    height: 100%;
+    padding: 0;
+}
+
+.headline_bx .list li {
+    height: 33.33%;
+    border-top: 1px solid #f6f6f6;
+}
+
+.headline_image{
+      position: relative;
+}
+
+.headline_image img {
+    width: 100%;
+    vertical-align: top;
+}
+
+@media (min-width: 768px)
+.headline_ct {
+    position: static;
+    float: left;
+    width: 50%;
+}
+
+.list_item_link{
+  color:black;
+  text-decoration: none;
+}
+
+.home_group {
+    overflow: hidden;
+    background: #fff;
+    border-top: 4px solid #ebebeb;
+}
+
+.home_hotclip .head .title {
+  margin: 0;
+    height: 46px;
+   line-height: 49px;
+     font-size: 17px;
+  font-weight: 600;
+     letter-spacing: -0.5px;
+}
+
+.hotclip_list_item{
+  width:25%;
+  float:left;
+  position: relative;
+}
+
+.headline_group + .home_group .match_box {
+    padding-top: 8px;
+    background: #ebebeb;
+}
+
+.matchbox{
+  display: inline;
+}
+
+.myteamleft{float: left;font-weight: bold;text-align: center;}
+.myteamright{float:right; margin-right:10px; font-size: 18px; font-weight: bold;height: auto;}
+
+.showmore{
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.match_box .head {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+
+
+.match_box .team_lft .name {
+    padding-right: 35px;
+    text-align: right;
+}
+.match_box .team_rgt .name {
+    padding-left: 35px;
+    text-align: left;
+}
+.match_box .team_lft .score {
+    float: right;
+}
+
+
+
+.match_box .head .title {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding: 0 12px;
+    height: 38px;
+    line-height: 38px;
+    font-family: HelveticaNeue-Light,AppleSDGothicNeo-Light,Sans-serif-Light;}
+
+    .match_box .head .title h3 {
+    display: inline-block;
+    color:black;
+    font-size: 15px;
+    font-weight: normal;}
+
+    .team_lft, .team_rgt{
+      color:black;
+    }
+
+    .match_box .game_li {
+      list-style: none;
+        float: left;
+        width: 50%;
+        position: relative;
+height: 38px;
+    }
+
+    .match_box .team_lft {
+        float: left;
+        padding-right: 16px;
+        width: 50%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .match_box .team_rgt {
+    float: right;
+    padding-left: 16px;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.match_box .state {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: table;
+    width: 100px;
+    height: 37px;
+    margin-left: -50px;
+    padding-top: 1px;
+    color: #666;
+    line-height: 1.1em;
+    table-layout: fixed;
+}
+
+
+
+
+
+
+.match_box .game_li:nth-of-type(2n+1) a {
+    border-right-color: #ebebeb;
+}
+.match_box .game_li a {
+    display: block;
+    padding: 0 8px;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    text-align: center;
+}
+
+    .match_box .head .title h3 + span {
+    padding-left: 8px;
+    color: #777;
+    font-size: 11px;
+}
+
+.articlesets{
+    border-top: 10px solid #ebebeb;
+    border-bottom: 10px solid #ebebeb;
+    background-color: white;
+}
+
+.leagues{
+  padding-right: 5px;
+  border-right: 1px solid #ebebeb;
+}
+
+/*-----------------*/
+
+
+#footer
+{
+
+    padding-top: 10px;
+    background: #232629
+}
+
+.footer12
+{
+    margin-left: -1px;
+    margin-right: -2px;
+    margin-bottom: -1px;
+    border-top: 1px solid #ececec;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.header{
+background-color: white;
+}
+
+.footer12 ul
+{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin: 0;
+    padding:0;
+}
+.footer12 ul li
+{
+    float: left;
+    width:33%;
+    list-style:none;
+    display: block;
+    height: 36px;
+    border-bottom: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    background: #fff;
+    color: #777;
+    font-size: 15px;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0em;
+    margin: 0;
+    padding:0;
+}
+.footer12 ul li a
+{
+    text-decoration: none;
+    color:#777777;
+}
+.footernotice
+{
+    font-family: AppleSDGothicNeo-Regular;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 8px;
+    color: #2565d0;
+}
+
+.footernoticebox
+{
+    color:#777;
+    font-size:20px;
+}
+
+.login span
+{
+    text-align: center;
+    color: #5D6677;
+}
+.login
+{
+    text-align: center;
+}
+.login span::before
+{
+    padding-left: 5px;
+    padding-right : 10px;
+    content:"|";
+}
+.login span:first-child::before
+{
+    content:"";
+}
+
+.copyright
+{
+    padding: 6px 25px 4px;
+    font-family: Helvetica Neue,Apple SD Gothic Neo,sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: -.5px;
+    color: #8a909e;
+    text-align: center;
+}
+
+.corp
+{
+    color:#898e98;
+    text-align: center;
+}
+
+.footernoticebox{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.article{
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid #ebebeb;
+
+}
+
+.articlet{
+  font-weight: 500;
+  font-family: sans-serif;
+}
